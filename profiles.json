@@ -1,0 +1,80 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 120,
+    "initialRows": 45,
+    
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "startingDirectory": ".",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false
+        },
+        {
+            "guid": "{2d5b9f3e-ebda-484d-ad02-6917128e0b3b}",
+            "name": "Git Bash",
+            "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+            "startingDirectory": "%USERPROFILE%",
+            "hidden": false
+        },
+        {
+            "guid": "{589edb39-f2c6-4e22-afca-d23e486b2f39}",
+            "name": "Ubuntu",
+            "commandline": "ssh.exe ubuntu",
+            "closeOnExit": true,
+            "historySize": 9001,
+            "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+            //"colorScheme": "Solarized Dark",
+            //"cursorColor": "#00FF00",
+            //"cursorHeight": 25,
+            //"cursorShape": "vintage",
+            //"acrylicOpacity": 0.5,
+            //"useAcrylic": true,
+            "padding": "0, 0, 0, 0",
+            "snapOnInput": true,
+            "startingDirectory": "%USERPROFILE%",
+            "hidden": false
+        },
+        {
+            "guid": "{f8be373a-f43d-4fd1-b77a-d6e0449ac0a3}",
+            "name": "VPS",
+            "commandline": "ssh.exe vps",
+            "closeOnExit": true,
+            "historySize": 9001,
+            "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+            "padding": "0, 0, 0, 0",
+            "snapOnInput": true,
+            "startingDirectory": "%USERPROFILE%",
+            "hidden": false
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure",
+            "hidden": false
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
