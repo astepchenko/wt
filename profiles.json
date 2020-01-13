@@ -28,7 +28,7 @@
         {
             "guid": "{2d5b9f3e-ebda-484d-ad02-6917128e0b3b}",
             "name": "Git Bash",
-            "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "commandline" : "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
             "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
             "startingDirectory": "%USERPROFILE%",
             "hidden": false
@@ -61,6 +61,7 @@
             "padding": "0, 0, 0, 0",
             "snapOnInput": true,
             "startingDirectory": "%USERPROFILE%",
+            //"startingDirectory": "C:\work",
             "hidden": false
         },
         {
