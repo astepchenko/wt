@@ -77,5 +77,20 @@
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": []
+    "keybindings": [
+        {
+            "command": "paste",
+            "keys":
+            [
+                "shift+insert"
+            ]
+        },
+        {
+            "command": "copy",
+            "keys":
+            [
+                "ctrl+insert"
+            ]
+        }
+    ]
 }
