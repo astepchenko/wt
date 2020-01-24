@@ -40,6 +40,11 @@
             "closeOnExit": true,
             "historySize": 9001,
             "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+            //"backgroundImage": "ms-appdata:///Local/image04.jpg",
+            //"backgroundImageOpacity": 0.20,
+            //"backgroundImageStretchMode": "fill",
+            //"fontFace":  "UbuntuMono NF",
+            //"fontSize": 14,
             //"colorScheme": "Solarized Dark",
             //"cursorColor": "#00FF00",
             //"cursorHeight": 25,
@@ -49,19 +54,6 @@
             "padding": "0, 0, 0, 0",
             "snapOnInput": true,
             "startingDirectory": "%USERPROFILE%",
-            "hidden": false
-        },
-        {
-            "guid": "{f8be373a-f43d-4fd1-b77a-d6e0449ac0a3}",
-            "name": "VPS",
-            "commandline": "ssh.exe vps",
-            "closeOnExit": true,
-            "historySize": 9001,
-            "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-            "padding": "0, 0, 0, 0",
-            "snapOnInput": true,
-            "startingDirectory": "%USERPROFILE%",
-            //"startingDirectory": "C:\work",
             "hidden": false
         },
         {
@@ -77,19 +69,20 @@
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
-    "keybindings": [
-        {
-            "command": "paste",
-            "keys":
-            [
-                "shift+insert"
-            ]
-        },
+    "keybindings":
+    [
         {
             "command": "copy",
             "keys":
             [
                 "ctrl+insert"
+            ]
+        },
+        {
+            "command": "paste",
+            "keys":
+            [
+                "shift+insert"
             ]
         }
     ]
